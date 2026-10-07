@@ -7,7 +7,7 @@
 //      Git Authentication, Access Token,
 //      Using Personal Access Token for Git Operations,
 
-//                             Git Push(git push),
+//                 Git Push(git push),
 //     Git Pull(git pull)
 
 // Git Stash(git stash),
