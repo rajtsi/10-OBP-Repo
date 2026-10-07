@@ -51,3 +51,7 @@
  // There was one time setup 
   
 
+// branching 
+git branch // give the lsit of branches wnd * in front og the current branch 
+git branch  ( name of the new branch)
+git switch ( name of teh branch in which you wants to move)
