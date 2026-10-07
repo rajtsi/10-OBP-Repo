@@ -2,10 +2,10 @@
 //     Git Initialization(git init), Git Staging(git add), git status 
 //         Git Commits(git commit),
 
-//             Git Remote Repository Setup(git remote),
-//                 Connecting Local Repository to GitHub,
-//                     Git Authentication, Access Token,
-//                         Using Personal Access Token for Git Operations,
+//      Git Remote Repository Setup(git remote),
+//      Connecting Local Repository to GitHub,
+//      Git Authentication, Access Token,
+//      Using Personal Access Token for Git Operations,
 
 //                             Git Push(git push),
 //     Git Pull(git pull)
