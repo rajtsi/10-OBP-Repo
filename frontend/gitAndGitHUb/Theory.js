@@ -7,7 +7,7 @@
 //      Git Authentication, Access Token,
 //      Using Personal Access Token for Git Operations,
 
-//                 Git Push(git push),
+//                             Git Push(git push),
 //     Git Pull(git pull)
 
 // Git Stash(git stash),
@@ -43,4 +43,9 @@
  // GitHub -> git Hub is a platform hosted on internet where we can upload our project 
 
 
+
+ git init  -> git add -> git commit -> git push -> git pull 
+
+ // There was one time setup 
+  
 
