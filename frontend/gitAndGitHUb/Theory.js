@@ -7,8 +7,10 @@
 //      Git Authentication, Access Token,
 //      Using Personal Access Token for Git Operations,
 
-//                             Git Push(git push),
+//     Git Push(git push),
 //     Git Pull(git pull)
+
+
 
 // Git Stash(git stash),
 //     Git Stash Pop(git stash pop),
@@ -18,7 +20,7 @@
 //                 Creating a Branch,
 //                     Switching Branches, g
 // it branch,
-//     git checkout / git switch,
+//     git checkout / git switch,         
 
 
 
@@ -44,10 +46,8 @@
 
 
 
- git init  -> git add -> git commit -> git push -> git pull 
+ // git init  -> git add -> git commit -> git push -> git pull 
 
  // There was one time setup 
   
-git stash 
-git stash list 
-git stash pop
+
