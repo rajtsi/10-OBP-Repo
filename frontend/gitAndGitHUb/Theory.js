@@ -24,6 +24,8 @@
 
 
 
+
+
 // What is Git ?       
 // what is a version Control System
 
@@ -37,6 +39,8 @@
  // git add -> then spaces seperated files name 
  // or git add .    -> it will all all the unstages files into stageed area  
 
- 
+
+ // GitHub -> git Hub is a platform hosted on internet where we can upload our project 
+
 
 
