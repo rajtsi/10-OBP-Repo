@@ -54,9 +54,9 @@
  // If authentication was asked you need to give PAT that you can generate from Github as password
 
 // branching 
-git branch // give the lsit of branches wnd * in front og the current branch 
-git branch  ( name of the new branch)
-git switch ( name of teh branch in which you wants to move)
+// git branch // give the lsit of branches wnd * in front og the current branch 
+// git branch  ( name of the new branch)
+// git switch ( name of teh branch in which you wants to move)
 
 
 
@@ -78,3 +78,5 @@ git switch ( name of teh branch in which you wants to move)
  //we have team 3 -> 
 
  
+
+git merge branchname // for merging th branch in the current branch
