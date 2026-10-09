@@ -1,0 +1,13 @@
+
+// h -> h1 - h6 // we can make hedings of different size using thsi h1-h6 tags
+// p -> was for writting a paragraph
+// a -> ancor tag this was for adding link in our webpage
+// img -> this was for adding image in our webpage
+// b or strong -> for making text bold
+// em or i this was for making text italic
+// hr // this was for horizontal line
+// br // endind line and starting new line 
+// ul // unordered list //thsi gives bullet points to teh items
+// ol // ordered list // its gived numbering autmatically 
+// li // that gived us the items that should be kept inside te ul or ol 
+    
