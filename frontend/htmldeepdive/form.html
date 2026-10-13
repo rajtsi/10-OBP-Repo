@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #id1 {
+        background-color: bisque;
+    }
+</style>
+
+<body>
+
+    <form>
+        <label for="id1">Name</label>
+        <br>
+        <input placeholder="Enter Your Name" type="text" id="id1" name="name" value="Rajat">
+        <br>
+        <label for="id">Email</label>
+        <br>
+        <input type="email" id="id1" name="email">
+        <br>
+        <label for="id1">Class</label>
+        <br>
+        <input type="number" id="id1" name="class" min="3" max="12" step="2">
+        <br>
+        <hr>
+        <button type="reset">Submit</button>
+    </form>
+    <input placeholder="This is stray Input">
+
+
+</body>
+
+</html>
+
+<!-- // form -> form will club the input and lable elemets together indicating that they are all together
+// lable -> we can create lable using this tag for a particular input box
+// input -> it will create a box where user can enter the required input
+// button -> this is a button that helps submit the form
+
+{
+
+name:
+Email:
+
+} -->
+
+
+<!-- type: The most critical attribute. It defines what kind of input control is rendered (e.g., text, password, email,
+checkbox, radio, submit, file) -->
+
+
+
+
+<!-- • type: The most critical attribute. It defines what kind of input control is rendered (e.g., text, password, email,
+checkbox, radio, submit, file).
+• name: Acts as the key identifying the field when the form data is submitted to the server.
+• value: Defines the initial, default, or pre-filled data inside the input field.
+• placeholder: Displays a temporary, light gray text hint inside the empty field to guide the user on what format or
+information to enter. -->
+
+
+
+
+// 22 types that my input element can take
+
+<!-- Text & Data Input
+
+• text: The default single-line text input field.
+• password: A text field that automatically masks characters (e.g., using dots or asterisks) for security.
+• email: Intended for email addresses; provides automatic client-side format validation and optimized mobile keyboards.
+• url: Used for web addresses; requires a valid URL format including the protocol (e.g., https://).
+• tel: Specifically for telephone numbers; pulls up a numeric keypad on most touch devices.
+• search: A text field styled specifically for search queries, often including a "clear" icon.
+• number: Restricts the field to numerical input and often displays up/down spinner arrows.
+
+Selection controls
+
+• checkbox: A box that can be toggled on or off; allows selecting multiple options in a list.
+• radio: A circular button used to select exactly one option out of a predefined group.
+• range: A slider control used for selecting a number when the exact value is less precise.
+• color: Displays a native color well that opens a system color picker when clicked.
+
+Date & Time Pickers
+
+• date: A control for entering a specific year, month, and day (no time).
+• time: A control for entering a time value (hours, minutes, seconds) with no time zone.
+• datetime-local: A combined control for choosing both a date and a time without a specific time zone.
+• month: A picker restricted to a specific year and month (e.g., "January 2026").
+• week: A picker restricted to a specific year and week number.
+
+Buttons & Actions
+
+• submit: Renders a button that automatically sends all the data in the form to the server.
+• reset: Renders a button that resets all fields in the form back to their initial values.
+• button: A general push button with no default behavior, intended to be programmed with JavaScript.
+• image: Renders a graphical submit button using an image file specified by a src attribute.
+
+Files & Specialized Types
+
+• file: A control that allows the user to select and upload one or more files from their device storage.
+• hidden: A form control that is not visible on the page, used to securely pass technical IDs or tokens during
+submission. -->
+
+
+
+schollCode + year + batchcode+ section
+
+
+
+<!-- Attribute Applicable Types Description
+required Most types (except hidden, range, color, button) Forces the user to fill out or interact with the field before
+submitting.
+maxlength / minlength text, search, url, tel, email, password Enforces the maximum and minimum number of characters
+allowed.
+max / min number, range, date, time, etc. Defines upper and lower numeric boundaries or dates.
+step number, range, date, time, etc. Specifies the valid incremental jumps or intervals for numeric values.
+pattern text, search, url, tel, email, password Expects a Regular Expression (RegEx) that the user's input must match. -->
