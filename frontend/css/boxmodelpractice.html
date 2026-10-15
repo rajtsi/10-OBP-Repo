@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #r1 {
+            background-color: blue;
+            width: 500px;
+            height: 50px;
+            padding: 10px 20px 30px;
+            border: solid;
+            border-width: 10px;
+            border-left-color: brown;
+            border-radius: 2px;
+            margin: 100px 50px 300px 400px;
+            margin-top: 8vh;
+            box-sizing: content-box;
+        }
+
+        #r2 {
+            background-color: rgb(121, 8, 8);
+            width: 100px;
+            height: 100px;
+            border: 10px solid;
+            box-sizing: border-box;
+            padding: 10px;
+
+        }
+
+
+
+        .d1 {
+            width: 1000px;
+        }
+
+        .d1 {
+            #d2 {
+                >h1 {
+                    color: red;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="d1">
+
+        <div id="d2">
+            <h1 id="r1"> Nested child / grand childrens </h1>
+            <h1 id="r2"> Singh</h1>
+            <div>
+                <h1> Test</h1>
+                <div>
+                    <h1> Test</h1>
+                    <div>
+                        <h1> Test</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1>
+            Direct Child
+        </h1>
+
+    </div>
+
+    <button style="border-radius: 50px;">Submit</button>
+
+
+
+</body>
+
+</html>
+
+
+
+<style>
+
+
+
+
+
+</style>
+
+
+<!-- inline css // writting css with element and using style = "  semicole and space seperated css properties"
+internal css // we make a style element inside head and then we write our css code inside taht style element 
+external css
+ we wil make a file with extention .css and we link it with the mail html file 
+ <link rel="stylesheet" href="styles.css" /> -->
+
+
+
+<!-- 4 patterns for deciding the size of padding
+single entry -> goes to all 4 side
+double entry -> 1st goes to top and bottom and 2nd goes to left and right
+triple entry-> 1st goes to top 2nd goes to rigth and left and then 3rd entry goes for bottom
+4 entries -> clock wise from top to left
+
+// padding-top/left/rigth/bottom -->
+
+
+
+<!-- Border Types
+
+• solid: A single, continuous straight line.
+• dashed: A series of short, square-ended dashes or line segments.
+• dotted: A series of small, rounded dots.
+• double: Two parallel solid lines that equal the specified width.
+• groove: A 3D carved or etched pattern into the page.
+• ridge: A 3D extruded or raised pattern sticking out from the page.
+• inset: A 3D effect making the entire element look embedded or sunken.
+• outset: A 3D effect making the entire element look embossed or raised.
+• none: Explicitly removes any border.
+• hidden: Completely hides the border, acting similarly to none but prioritizing cell conflicts in table border
+collapsing -->
+
+
+
+<!-- #id .class tag   -->
+<!-- 
+
+
+  nested selection 
+  .class .class1 .class2 #id1 > h1{
+  
+  }
+
+
+  group selection 
+ -->
+
+
+
+
+width 200px // content box
+padding 20px-> 40px
+border width 10px -> 20 // 200+40+20
+
+box-sizing -> content-box // border-box
+
+[[     ] ]
