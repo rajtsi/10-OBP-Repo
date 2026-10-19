@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --var1: 50px;
+            --cvar: red;
+        }
+
+        .c2 {
+            height: 200px;
+            width: 100px;
+            border: solid;
+            border-radius: 10px;
+
+        }
+
+        .c1 {
+            background-color: rgb(192, 202, 207);
+            height: 800px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            /* flex-direction: column-reverse;  row, row-reverse, column ; */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: center; */
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 20px;
+
+        }
+
+        /* .r1 {
+            background-color: red;
+        }
+
+        .g1 {
+            background-color: green;
+        }
+
+        .b1 {
+            background-color: blue;
+        }
+
+        .y1 {
+            background-color: yellow;
+        } */
+
+        #id1 {
+            background-color: red;
+        }
+
+        #id2 {
+            background-color: green;
+            flex-grow: 1;
+            flex-shrink: 1;
+
+        }
+
+        #id3 {
+            background-color: yellowgreen;
+
+        }
+
+        #id4 {
+            background-color: orange;
+            flex-grow: 3;
+            flex-shrink: 3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="c1">
+
+        <div class="c2 r1" id="id1">
+            Div 1
+        </div>
+        <div class="c2 g1" id="id2">
+
+            Div 2
+
+        </div>
+        <div class="c2 y1" id="id3">
+            div 3
+
+        </div>
+        <div class="c2 b1" id="id4">
+
+            div 4
+
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+// for alligning or positining items inside a container using flex box we need to make type of parent container as flex
+// display: // flex;
+
+there is a concept of axis in flexbox
+// main axis -> depends on flex-direction -> row-> horizontal -> columns-> vertical
+// cross axix -> // always perpendicular to main axis;
+
+// gap: you can manually decide the gap between items
+// justify-content -// center , flex-end, flex-start
+
+// space-around
+// space-between
+// space-evenly
+
+
+// align-item // streatch-> stretch the items in cross axis direction;
+// flex-start, flex-end, center
+// auto
+
+flex-wrap: wrap
+// nowrap
+// wrap-reverse
+
+// flex-grow // these are factors
+// flex-shrink //these are factors
+// flex-basis -> px 
