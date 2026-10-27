@@ -12,7 +12,6 @@
         }
 
         .c2 {
-            height: 200px;
             width: 100px;
             border: solid;
             border-radius: 10px;
@@ -21,7 +20,7 @@
 
         .c1 {
             background-color: rgb(192, 202, 207);
-            height: 800px;
+            height: 100vh;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
@@ -64,13 +63,14 @@
 
         #id3 {
             background-color: yellowgreen;
-
+            align-self: stretch;
         }
 
         #id4 {
             background-color: orange;
             flex-grow: 3;
             flex-shrink: 3;
+            align-self: center;
         }
     </style>
 </head>
@@ -134,4 +134,4 @@ flex-wrap: wrap
 
 // flex-grow // these are factors
 // flex-shrink //these are factors
-// flex-basis -> px 
+// flex-basis -> px

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .c {
+            display: grid;
+            grid-template-columns: 1fr 2fr 3fr 2fr;
+            grid-template-rows: 1fr 2fr 200px;
+            height: 700px;
+
+            column-gap: 10px;
+            row-gap: 10px;
+            grid-template-areas:
+                "g11 g12 g13"
+                "g21 g21 g23"
+                "g31";
+        }
+
+        .g11 {
+            grid-area: g11;
+            background-color: brown;
+        }
+
+        .g12 {
+            grid-area: g12;
+        }
+
+        .g13 {
+            grid-area: g13;
+        }
+
+        .g21 {
+            grid-area: g21;
+        }
+
+        .g23 {
+            grid-area: g23;
+        }
+
+        .g31 {
+            grid-area: g31;
+        }
+
+        .c1 {
+            width: 100%;
+            height: 100%;
+            background-color: rgb(192, 55, 10);
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="c">
+        <div class="g11">
+            1
+        </div>
+        <div class="g12">
+            2
+        </div>
+        <div class="g13">
+            3
+        </div>
+        <div class="g21">
+            4
+        </div>
+        <div class="g21">
+            5
+        </div>
+        <div class="g23">
+            6
+        </div>
+        <div class="g31">
+            7
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
+
+<!-- display
+grid-template-column/row  -->
+
+
+<!-- auto-fit
+auto-fill -->

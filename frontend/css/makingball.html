@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ball {
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            border-radius: 50%;
+            animation: ballmovement 1s ease 2s 1 alternate forwards;
+        }
+
+        @keyframes ballmovement {
+            0% {
+                transform: translateX(0px) translateY(0px);
+                background-color: aqua;
+                scale: 1;
+            }
+
+            50% {
+                transform: translateX(500px) translateY(500px);
+                background-color: rgb(70, 162, 39);
+                scale: 1.5;
+            }
+
+            100% {
+                transform: translateX(1000px) translateY(0px);
+                background-color: rgb(31, 8, 181);
+                scale: 2;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="ball">
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bouncing Ball Animation</title>
+
+    <style>
+        .stage {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        .left-wall {
+            left: 0px;
+            height: 700px;
+            width: 10px;
+            background-color: red;
+            display: inline-block;
+        }
+
+        .right-wall {
+            right: 0px;
+            height: 700px;
+            width: 10px;
+            background-color: red;
+            display: inline-block;
+        }
+
+        /* Ball */
+        .ball {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            border-radius: 50%;
+            /* animation: bounce 4s linear infinite alternate-reverse 1s forwards; */
+        }
+
+        /* Ball movement */
+        @keyframes bounce {
+
+            /* Start at the left wall */
+            0% {
+                left: 0%;
+                top: 200px;
+                background-color: antiquewhite;
+                background: linear-gradient(to bottom, rgb(229, 26, 26), rgb(74, 37, 37), rgb(5, 186, 5), rgb(145, 132, 106));
+
+            }
+
+            /* Move to the middle */
+            25% {
+                left: 20%;
+                top: 400px;
+                background-color: blue;
+                background: linear-gradient(to bottom, black, red, green, orange);
+
+            }
+
+            /* Jump back upward */
+            50% {
+                left: 50%;
+                top: 800px;
+                background-color: blueviolet;
+            }
+
+            75% {
+                left: 70%;
+                top: 400px;
+                background-color: aquamarine;
+            }
+
+            /* Move toward the right wall */
+            100% {
+                left: 100%;
+                top: 0;
+                background-color: azure;
+            }
+        }
+
+        .bottom {
+            width: 100%;
+            height: 10px;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <div class="ball"></div>
+
+
+
+
+</body>
+
+</html>
