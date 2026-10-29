@@ -1,0 +1,32 @@
+ .parent {
+     height: 80vh;
+     width: 80vw;
+
+     position: relative;
+     display: flex;
+ }
+
+ .child {
+     display: inline-block;
+     height: 200px;
+     width: 200px;
+
+     margin-bottom: 2px;
+     position: absolute;
+ }
+
+ .c2 {
+     position: absolute;
+     top: 0px;
+     right: 0px;
+
+
+ }
+
+ .bt1 {
+     background: radial-gradient(red, blue);
+ }
+
+ .c1 {
+     left: 700px;
+ }
