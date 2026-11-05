@@ -1,0 +1,70 @@
+<!-- //How to get an html element node(taht is also an object) in JavaScript code dynamically
+
+document.querySelector(id/class/tag)-> get teh 1st mattching element
+document.querySelectorAll(id/class/tag)-> get the list of mattching elements
+document.getElementById(id)-> get the 1st mattching element
+document.getElementByClassName(class)-> get the list of matching element
+document.getElementByTagName(tag)-> get the list of matching element
+
+// changing in dom element
+// textContent or InnerHTML can be changed
+// we can change attributes
+// elementVariable.classList.add(you can pass teh class names comma seperated here to add in existing class )
+// elementVariable.classList.remove(pass comma seperated names of teh calsses you wanst to remove )
+// elementVariable.classList.toggle(give the class you wanst to toogle )
+
+setAttribute(attributeName,attribute New value);
+element.ClassName // so for using thsi make sure yoy cross checkteh actualy javascript representation
+
+// events -> click,input,focus,blur,change -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .c{
+        height: 100vh;
+        width: 100vw;
+        background-color: aqua;
+     }
+     .c2{
+        background-color: brown;
+     }
+      .btn{
+        border-radius: 20%;
+        background-color: azure;
+      }
+    </style>
+</head>
+<body style="align-items: center;">
+
+    <!-- <div class="c">
+        <button id="btn">Change Color</button>
+
+        <p >
+            This is before click
+        </p>
+        <input >
+
+
+    </div> -->
+
+    <div >
+        <h1 class="val" style=" margin-left: 48vw; margin-bottom: 200px;">0</h1>
+        <div style="display: flex; grid-template-columns: 100px 100px 100px; justify-content: space-around;">
+         <button  class="btn btnp">+</button>
+          <button class="btn btnr">^</button>
+           <button class="btn btns">-</button>
+        </div>
+
+    </div>
+    <script  src="event.js"></script>
+</body>
+</html>
+
+
+
+
