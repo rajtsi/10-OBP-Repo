@@ -33,14 +33,16 @@ let mycount =document.getElementsByTagName('h1')[0];
 
 
 
-// pbutton.onclick = function(){  
-//   alert('dice thrown');
-// }
+
 
 // pbutton.onclick = function(){  
 //     let contentofcount=Math.ceil(Math.random()*6);
 //     console.log(contentofcount);
 //     mycount.textContent=contentofcount;
+// }
+
+// pbutton.onclick = function(){  
+//   console.log('dice thrown');
 // }
 
 // pbutton.onclick = function(){  
@@ -59,6 +61,7 @@ pbutton.addEventListener('click',function(){
     let contentofcount=Math.ceil(Math.random()*6);
     console.log(contentofcount);
     mycount.textContent=contentofcount;
+
 });
 
 
@@ -69,20 +72,20 @@ pbutton.addEventListener('click',function(){
     // contentofcount=contentofcount+1;
     // console.log(contentofcount);
 
-       alert('dice thrown');
+       console.log('dice thrown');
 
 });
 
-pbutton.addEventListener('click',function(){
-     console.log('+');
-    // let contentofcount=mycount.textContent; // when you read the value using textContent its in string form so make sure to use as per data type 
-    // contentofcount= Number(contentofcount)
-    // contentofcount=contentofcount+1;
-    // console.log(contentofcount);
+// pbutton.addEventListener('click',function(){
+//      console.log('+');
+//     // let contentofcount=mycount.textContent; // when you read the value using textContent its in string form so make sure to use as per data type 
+//     // contentofcount= Number(contentofcount)
+//     // contentofcount=contentofcount+1;
+//     // console.log(contentofcount);
 
-      // alert('dice thrown');
+//       // alert('dice thrown');
 
-});
+// });
 
 
 
