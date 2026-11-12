@@ -1,3 +1,25 @@
+// - Adding js file and attaching it with html  for dynamic and functional behaviour
+// 3 ways of attaching js file
+
+// -how to select and dom  element that is nothing but an element in html
+// -how we can modify the selected element using js -> textContent,innerHTML, elementName.style... 
+
+// - how to write a code where where some part of code runs on a particular event 
+//   so we has some events like  click input focus ect  using these events we can trigger a part of js code for that we needed to attach event listners with teh elements 
+
+// - Even for addition of event e had 2 ways for adding clickEvent elementName.onclick=  here we can give a function 
+// and another way was just using addEventListnerswith clickevent
+
+//  - how we can create elements dynamically using just js 
+
+
+
+
+
+
+
+
+
 // let myNewElement = document.createElement('tageName') -> you can create an element live using js 
 
 // parentName.appendChild(myNewElement); / adding at the end 
