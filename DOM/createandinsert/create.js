@@ -33,7 +33,7 @@
 
 // elementName.remove() // element name is the name of variable in which you selected the element that you wants to remove
 
-// parentName.removeClild(childName);
+// parentName.removeClild(childName); // remove child using parent name
 
 
 let pbutton= document.getElementsByClassName('btnp')[0];
@@ -47,10 +47,27 @@ let countElement = document.getElementsByClassName('val')[0];
 let eDiv= document.getElementById('ev');
 let hend= document.getElementById('hend');
 
+let nameinput=document.getElementById('name');
 
+
+let myform= document.getElementById('myform');
+let formbuttom = document.getElementById('mybutton');
+
+let formCity= document.getElementById('city');
+
+
+myform.addEventListener('submit',function(event){
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    const data = Object.fromEntries(formData.entries());
+    console.log(data);
+    alert(`${data.Name} You are sucessfuly logged in city ${formCity.value}`);
+
+})
 
 
 pbutton.addEventListener('click',function(){
+
     console.log('+ is working');
 
  // your countElement here is not a number okk its an object so you cnanot sirect increate its value 
@@ -88,6 +105,8 @@ rbutton.addEventListener('click',function(){
 sbutton.addEventListener('click',function(){
     console.log('- is working');
 });
+
+
 
 
 
