@@ -7,40 +7,86 @@ let par = pc2.parentElement;
 
 par.addEventListener('click',function(event){
     console.log('parent was clicked capturing');
-    console.dir(event.target);
+    console.log(event.target);
     console.log(event.currentTarget);
-},true)
+},true);// capturing 
 
 par.addEventListener('click',function(event){
     console.log('parent was clicked bubbulling');
-})
+})// bubbulling
 
 pc2.addEventListener('click',function(event){
-    console.log('child was clicked bubbuling');
-    console.dir(event.target);
-    event.stopPropagation();
-})
+    console.log('child was clicked capturing');
+   // console.dir(event.target);
+     event.stopPropagation();
+},true);
 
-let myset=new Set();
+pc2.addEventListener('click',function(event){
+    console.log('child was clicked bubbeling');
+   // console.dir(event.target);
+    // event.stopPropagation();
+});
+
+let mykeyset= new Set();
 
 document.addEventListener('keydown',function(event){
+    event.preventDefault();
     console.log(event.key);
-    myset.add(event.key);
+    mykeyset.add(event.key.toLocaleLowerCase());
+
+    // myset.add(event.key);
     // console.log(event.ctrlKey);
     // console.log(event.shiftKey);
     // console.log(event.altKey);
     // console.log(event.metaKey);
-    event.preventDefault();
+    // if(event.key.toLocaleLowerCase()==='a' && event.key.toLocaleLowerCase()==='b')
+    // {
+    //     console.log("yes we pressed ctrl+ s");
+    //     alert("YOU TRIED TO SAVE THIS PAGE ");
 
-    if(event.ctrlKey && event.key.toLocaleLowerCase()==='s')
+    // }
+    let a=false;
+    let b=false;
+
+    for(let x of mykeyset)
     {
-        console.log("yes we pressed ctrl+ s");
+     
+     if(x==='a')a=true;
+     if(x==='b')b=true;
+
+    }
+
+    if (a && b)
+    {
+        console.log('yes we have a and b pressed');
     }
 
 
 });
 
-// document.addEventListener('keyup',function(event){console.log('key was relesed')});
+document.addEventListener('keyup',function(event){
+    mykeyset.delete(event.key.toLocaleLowerCase());
+
+});
+
+
+
+pc2.addEventListener('mousedown',function(event){
+    console.log('mouse was clicked');
+
+    
+});
+pc2.addEventListener('mouseup',function(event){
+    console.log('mouse click ended ');
+});
+
+document.addEventListener('mousemove',function(event){
+   // console.log('mouse is moving ');
+    console.log(event.clientX,
+    event.clientY,
+    event.pageX,
+    event.pageY);
+});
 
 
 // any event have 3 stages (phase)

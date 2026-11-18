@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mouse Coordinates</title>
+    <style>
+        body {
+            min-height: 200vh;
+            min-width: 150vw;
+            font-family: Arial;
+        }
+
+        .coordinates {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: black;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="coordinates">
+        <p>Client X: <span id="cx">0</span></p>
+        <p>Client Y: <span id="cy">0</span></p>
+        <p>Page X: <span id="px">0</span></p>
+        <p>Page Y: <span id="py">0</span></p>
+    </div>
+
+    <script>
+        document.addEventListener("mousemove", function(event) {
+            document.querySelector("#cx").textContent = event.clientX;
+            document.querySelector("#cy").textContent = event.clientY;
+            document.querySelector("#px").textContent = event.pageX;
+            document.querySelector("#py").textContent = event.pageY;
+        });
+    </script>
+
+</body>
+</html>
