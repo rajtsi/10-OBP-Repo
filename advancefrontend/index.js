@@ -15,7 +15,7 @@
      
     console.log(sessionStorage);
 
-   sessionStorage
+  
     if(sessionStorage.getItem('entries'))
     {
       let myarr = JSON.parse(sessionStorage.getItem('entries'));
